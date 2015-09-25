@@ -2,7 +2,9 @@
 使用impress.js做的一个幻灯片，答辩时用的
 
 # 注意
-虽然是使用的impress.js,但是其中原来demo中使用的impress-demo.css已经有所改变，并且命名为了impress_default.css。
+虽然是使用的impress.js,但是其中原来demo中使用的impress-demo.css已经有所改变，并且命名为了`impress_default.css`。
+
+`该代码只支持Chrome浏览器`
 
 因为写的时间比较仓促，所以有些代码是直接从别的地方拷贝过来的，而有些js文件可能并未用到。
 
