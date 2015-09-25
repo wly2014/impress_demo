@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="impress.js"></script>
+<script type="text/javascript" src="snap.svg-min.js"></script>
+<link rel="stylesheet" type="text/css" href="impress_default.css">
+<link rel="stylesheet" type="text/css" href="impress_me.css">
+<link rel="stylesheet" type="text/css" href="three-bounce-loading.css">
+	<title></title>
+</head>
+<body>
+<div id="impress">
+	<div id="start" class="step slide" data-x="-2000" data-y="0" data-z="-1000">
+		<img class="background" src="background.png">
+        <q id="title">三好学生标兵答辩</q>
+        <div id="sec_title">做一个创造工具的人</div>
+        <div id="name">wly</div>
+		<div class="sk-three-bounce">
+	      <div class="sk-child sk-bounce1"></div>
+	      <div class="sk-child sk-bounce2"></div>
+	      <div class="sk-child sk-bounce3"></div>
+	    </div>
+    </div>
+
+<!-- 编程 -->
+    <div id="A" class="step slide" data-x="0" data-y="0" data-z="0">
+		<img class="background" src="background.png">
+        <div id="code">编程</div>
+        <svg class="svg"></svg>
+        <div id="code_list">
+	        <div class="code_item">“签到啦”校园晨读签到APP（Android）</div>
+	        <div class="code_item">概率统计与参数估计软件（Windows）</div>
+	        <div class="code_item">参与android-training-course-in-chinese翻译</div>
+        </div>
+    </div>
+    <div class="step slide" data-x="0" data-y="-350" data-z="-350" data-rotate-x="90">
+    <img class="background" src="background.png">
+    <div id="description">
+    	<div class="code_item">使用蓝牙签到，更快捷</div>
+    	<div class="code_item">支持云端存储，更方便</div>
+    	<div class="code_item">可以 Web访问，更直接</div>
+    </div>
+    	<img id="Isign_img" src="Isign.jpg">
+    </div>
+    <div class="step slide" data-x="0" data-y="0" data-z="-700" data-rotate-x="180">
+	    <img class="background" src="background.png">
+    	<div id="windows">
+    		<div id="windows_desc">
+	    		<div>参与完成航空发动机载荷谱编制方面<br/>的科研项目,编制完成概率统计与参数<br/>估计软件</div>
+    		</div>
+    		<img id="windows_img" src="windows.png">
+    	</div>
+    </div>
+    <div class="step slide" data-x="0" data-y="350" data-z="-350" data-rotate-x="270">
+	    <img class="background" src="background.png">
+    	<div id="training">
+    		<div training_desc>参与android-training-course-in-chinese翻译</div>
+    		<img id="training_img" src="training.png">
+    	</div>
+    </div>
+
+<!-- 竞赛 -->
+    <div id="step-6" class="step slide" data-x="2000" data-y="0" data-z="1000" data-rotate-x="0">
+    	<img class="background" src="background.png">
+    	<div id="compete_title">竞赛</div>
+    	<svg class="svg2"></svg>
+    	<div id="competition">
+    		<div class="code_item">第十届“周培源”力学竞赛全国三等奖</div>
+    		<div class="code_item">“中航津电杯”第九届电子电路设计大赛二等奖</div>
+            <div class="code_item">“福特杯”概念车设计大赛</div>
+    		<div class="code_item">“三行代码情诗”挑战赛三等奖</div>
+    	</div>
+    	<div class="spinner">
+		  <div class="outer">
+		    <div class="inner tl"></div>
+		    <div class="inner tr"></div>
+		    <div class="inner br"></div>
+		    <div class="inner bl"></div>
+		</div>
+</div>
+    </div>
+
+<!-- 荣誉 -->
+	<div class="step slide" data-x="4000" data-y="0" data-z="2000" data-rotate-x="0">
+		<img class="background" src="background.png">
+		<div id="honor_title">荣誉</div>
+		<svg class="svg3"></svg>
+    	<div id="honor">
+    		<div class="code_item">国家励志奖学金</div>
+    		<div class="code_item">优秀学生奖学金一等奖</div>
+    		<div class="code_item">"启航活动"优胜团队</div>
+    		<div class="code_item">三好学生</div>
+    		<div class="code_item">优秀团员</div>
+    	</div>
+
+    </div>
+	<div id="end" class="step" data-x="0" data-y="0" data-scale="12">
+		<div id="thanks">THANK YOU</div>
+		<!-- <svg class="plane-svg" viewBox="0 0 28 26">
+            <path class="plane-svg__path" fill="#fff" d="M0,0 28,13 0,26 0,13 20,13 0,7z"></path>
+        </svg> -->
+		<div id="design">Designed by wly</div>
+    </div>
+
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script type="text/javascript" src="impress.js"></script>
+<script type="text/javascript">
+	impress().init();
+</script>
+
+<script type="text/javascript" src="mysvg.js"></script>
+</body>
+</html>

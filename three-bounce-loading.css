@@ -1,0 +1,61 @@
+.sk-three-bounce
+{
+    width: 80px;
+    margin: 40px auto;
+    text-align: center;
+}
+.sk-three-bounce .sk-child
+{
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+            animation: sk-three-bounce 1.4s ease-in-out 0s infinite both; 
+
+    border-radius: 100%;
+    background-color: white;
+}
+.sk-three-bounce .sk-bounce1
+{
+    -webkit-animation-delay: -.32s;
+            animation-delay: -.32s;
+}
+.sk-three-bounce .sk-bounce2
+{
+    -webkit-animation-delay: -.16s;
+            animation-delay: -.16s;
+}
+
+@-webkit-keyframes sk-three-bounce
+{
+    0%,
+    80%,
+    100%
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    40%
+    {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes sk-three-bounce
+{
+    0%,
+    80%,
+    100%
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    40%
+    {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}

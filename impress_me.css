@@ -1,0 +1,294 @@
+/*默认的宽高1200x700*/
+
+#start{
+	/*background-image: url("../nuaa.jpg");*/
+	/*background-color: #B19494;*/
+}
+
+#title{
+	position: absolute;
+	left: 150px;
+	top: 60px;
+}
+
+#sec_title{
+	position: absolute;
+	left: 180px;
+	top: 260px;
+}
+
+#name{
+	position: absolute;
+	right: 200px;
+	bottom: 300px;
+}
+
+#sk-three-bounce{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+/*loading动画*/
+
+#code,#code_list {
+	visibility: hidden;
+}
+
+#code{
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	font-size: 40px;
+}
+
+#code_list{
+	position: absolute;
+	left: 300px;
+	top: 230px;
+}
+
+#A.present #code{
+	visibility: visible;
+	color: rgba(255,255,255,1); 
+	-webkit-animation:code_font 0.5s ease-out;
+}
+
+#A.present #code_list{
+	visibility: visible;
+	-webkit-animation:code_list 0.5s ease-out;
+}
+
+.svg{
+	width: 250px;
+	height: 700px;
+	margin-left: -40px;
+	margin-top: -40px;
+	overflow: visible;
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+
+@-webkit-keyframes code_font{
+	0%{
+		left: 0px;
+		margin-left: -80px;
+		opacity: 0;
+		/*background-color: #5A5353;*/
+	}
+	100%{
+		left: 100px;
+		margin-left: 0;
+		opacity: 1;
+		/*background-color: #E47F7F;*/
+	}
+}
+
+@-webkit-keyframes code_list{
+	0%{
+		margin-top: 100px;
+		opacity: 0;
+		/*background-color: #5A5353;*/
+	}
+	100%{
+		margin-top: 0;
+		opacity: 1;
+		/*background-color: #E47F7F;*/
+	}
+}
+
+.code_item{
+	padding: 20px;
+}
+
+/*#Isign{
+	position: relative;
+	width: 500px;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+}*/
+
+#description{
+	margin-top: 200px;
+	margin-left: 100px;
+	width: 500px;
+	height: 400px;
+	float: left;
+	/*background-color: #BF9B9B;*/
+}
+
+#Isign_img{
+	margin-top: 100px;
+	margin-left: 20px;
+	width: 270px;
+	height: 450px;
+	top: 50%;
+	/*border-radius: 10px;
+	box-shadow: 0 45px 100px 10px rgba(0, 0, 0, 0.4);
+	overflow: hidden;*/
+}
+
+#windows_desc{
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+
+#windows_img{
+	position: absolute;
+	width: 500px;
+	height: 350px;
+	right: 100px;
+	top: 50%;
+	margin-top: -150px;
+	/*border-radius: 10px;
+	box-shadow: 0 45px 100px 10px rgba(0, 0, 0, 0.4);
+	overflow: hidden;*/
+}
+
+#training_img{
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	right: 50px;
+	top: 50%;
+	margin-top: -250px;
+	
+}
+
+#Isign_img,#windows_img,#training_img{
+	border-radius: 10px;
+	box-shadow: 0 45px 100px 10px rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+}
+/*#step-6{
+	background-image: url("background.png");
+}
+*/
+.background{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index: -1;
+}
+
+.svg2{
+	width: 250px;
+	height: 700px;
+	margin-left: -40px;
+	margin-top: -40px;
+	overflow: visible;
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+
+#compete_title,#competition{
+	visibility: hidden;
+}
+
+#compete_title{
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	font-size: 40px;
+}
+
+#competition{
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	color: white;
+}
+
+#step-6.present #compete_title{
+	visibility: visible;
+	color: rgba(255,255,255,1); 
+	-webkit-animation:code_font 0.5s ease-out;
+}
+
+#step-6.present #competition{
+	visibility: visible;
+	-webkit-animation:code_list 0.5s ease-out;
+}
+
+#honor_title,#honor{
+	visibility: hidden;
+}
+
+#honor_title{
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	font-size: 40px;
+}
+
+#honor{
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	color: white;
+}
+
+#step-7.present #honor_title{
+	visibility: visible;
+	color: rgba(255,255,255,1); 
+	-webkit-animation:code_font 0.5s ease-out;
+}
+
+#step-7.present #honor{
+	visibility: visible;
+	-webkit-animation:code_list 0.5s ease-out;
+}
+
+.svg3{
+	width: 250px;
+	height: 700px;
+	margin-left: -40px;
+	margin-top: -40px;
+	overflow: visible;
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+
+#end{
+	position: relative;
+	/*background-color: #EA6D6D;*/
+}
+
+#thanks{
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-top: -140px;
+	margin-left: -450px;
+	font-size: 100px;
+	visibility: hidden;
+	/*background-color: #918C8C;*/
+}
+
+#end.present #thanks{
+	visibility: visible;
+	-webkit-animation:thanks 0.8s ease-out;
+}
+
+#design{
+	position: absolute;
+	right: 100px;
+	bottom: -80px;
+	font-size: 30px;
+	visibility: hidden;
+}
+
+#end.present #design{
+	visibility: visible;
+	-webkit-animation:thanks 1.2s ease-out;
+}
+
+@-webkit-keyframes thanks{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
